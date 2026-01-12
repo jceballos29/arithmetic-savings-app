@@ -27,7 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-200 font-sans dark:bg-black`}
       >
-        <main className="h-dvh overflow-hidden container py-6 md:py-10 lg:py-16">
+        <main className="h-dvh flex overflow-hidden container py-6 md:py-10 lg:py-16">
         {children}
         </main>
       </body>
